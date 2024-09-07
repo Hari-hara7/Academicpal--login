@@ -8,7 +8,12 @@ body {
     background-attachment: fixed; /* Keeps the background fixed as the user scrolls */
     color: #000;
 }
-
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 header {
     text-align: center;
     padding: 20px 0;
