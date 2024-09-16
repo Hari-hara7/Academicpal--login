@@ -229,7 +229,7 @@ button:hover {
     width: 300px;
     margin: 0 auto; /* Center the image */
     display: block; /* Ensure image is displayed as block element */
-    filter: invert(1); /* Invert logo colors */
+    /* Invert logo colors */
 }
 #popup-message {
     margin-top: 20px;
@@ -247,12 +247,13 @@ button:hover {
 #logos img {
     width: 300px;
     margin: 0 10px;
-    filter: invert(1); /* Invert logo colors */
+    /* Invert logo colors */
 }
 #logo img {
     width: 300px;
+    height: 100px;
     margin: 0 10px;
-    filter: invert(1); /* Invert logo colors */
+     /* Invert logo colors */
 }
 
 .pictures {
