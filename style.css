@@ -18,6 +18,36 @@ header {
     text-align: center;
     padding: 20px 0;
 }
+footer {
+    background-color: #2c2c2c; /* Dark background */
+    color: #000000; /* White text */
+    text-align: center; /* Center align the text */
+    padding: 20px; /* Spacing around the content */
+    font-size: 14px; /* Standard font size */
+    border-top: 1px solid #444; /* Top border for separation */
+}
+
+footer p {
+    margin: 0; /* Remove default paragraph margin */
+    line-height: 1.6; /* Improve text spacing */
+    font-family: 'Bebas Neue', sans-serif; /* Use the 'Bebas Neue' font */
+}
+
+footer a {
+    color: #000000; /* Yellow links for emphasis */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold the links */
+    margin: 0 5px; /* Space between links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer p br {
+    display: block;
+    margin-bottom: 10px; /* Space between copyright and links */
+}
 
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
